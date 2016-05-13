@@ -22,4 +22,4 @@ app = flask.Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'ohai'
+    return flask.render_template('index.html')
