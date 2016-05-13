@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = bearmetal_dashboard
+omit = bearmetal_dashboard/openstack/*
+
+[report]
+ignore_errors = True
